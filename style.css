@@ -25,3 +25,25 @@ aside{
 article{
     color: rgb(207, 107, 162);
 }
+
+#customers  {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    text-align: center;
+    border: 1px solid rgb(63, 63, 87);
+    padding: 8px;
+}
+#customers tr:nth-child(even){background-color: #dee0e0;}
+
+#customers tr:hover {background-color: rgb(204, 209, 209);}
+
+#customers th{
+    padding-top: 12px;
+    padding-bottom: 8px;
+    background-color: rgb(47, 51, 83);
+    color: rgb(245, 246, 247);
+}
