@@ -1,0 +1,27 @@
+h2{
+    color: rgb(97, 93, 93)smoke;
+    background-color: rgb(126, 136, 163);
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+header{
+    color: rgb(146, 160, 221);
+}
+
+main{
+    color: rgb(78, 124, 80);
+}
+
+section{
+    color: rgb(47, 90, 128);
+}  
+
+aside{
+    color: rgb(40, 41, 78);
+}
+
+article{
+    color: rgb(207, 107, 162);
+}
