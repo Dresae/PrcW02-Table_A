@@ -40,3 +40,22 @@ function addRegistry() {
         newRow.style.transform = 'translateY(0)';
     }, 50);
 }
+
+function clearTable() {
+    const tableBody = document.getElementById('tableBody');
+    const rows = tableBody.getElementsByTagName('tr');
+    
+    // Add fade-out animation to each row
+    Array.from(rows).forEach((row, index) => {
+        setTimeout(() => {
+            row.style.transition = 'all 0.3s ease';
+            row.style.opacity = '0';
+            row.style.transform = 'translateY(20px)';
+        }, index * 100);
+    });
+
+    // Remove rows after animation
+    setTimeout(() => {
+        tableBody.innerHTML = '';
+    }, rows.length * 100 + 300);
+}
