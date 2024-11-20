@@ -3,6 +3,10 @@
 ## Overview
 This web application implements a responsive registration form with a dynamic table using a neumorphic design style. It features a dark/light theme toggle and smooth animations for data manipulation.
 
+***
+![screenshot](pics/screenshot1.png)
+***
+
 ## 🚀 Features
 
 ### Core Functionalities
