@@ -5,6 +5,7 @@ This web application implements a responsive registration form with a dynamic ta
 
 ***
 ![screenshot](pics/screenshot1.png)
+![screenshot](pics/screenshot2.png)
 ***
 
 ## 🚀 Features
